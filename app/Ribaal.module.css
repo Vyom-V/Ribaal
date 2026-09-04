@@ -710,7 +710,7 @@
 .spriteImage {
   width: 100%;
   height: 100%;
-  background-image: url("/Ribaal/sherwani-collection-grid.png");
+  background-image: url("/ribaal/sherwani-collection-grid.png");
   background-repeat: no-repeat;
   background-size: 200% 200%;
   transform: translate3d(0, 0, 0) scale(1.002);
