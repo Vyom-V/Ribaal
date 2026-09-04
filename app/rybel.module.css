@@ -1,4 +1,4 @@
-.rybelRoot {
+.RibaalRoot {
   --ink: #121713;
   --forest: #12271f;
   --forest-deep: #07100d;
@@ -20,27 +20,27 @@
   text-rendering: optimizeLegibility;
 }
 
-.rybelRoot,
-.rybelRoot * {
+.RibaalRoot,
+.RibaalRoot * {
   box-sizing: border-box;
 }
 
-.rybelRoot a {
+.RibaalRoot a {
   color: inherit;
   text-decoration: none;
 }
 
-.rybelRoot button,
-.rybelRoot input {
+.RibaalRoot button,
+.RibaalRoot input {
   font: inherit;
 }
 
-.rybelRoot button,
-.rybelRoot a {
+.RibaalRoot button,
+.RibaalRoot a {
   -webkit-tap-highlight-color: transparent;
 }
 
-:global(body.rybel-page) {
+:global(body.Ribaal-page) {
   margin: 0;
   min-width: 320px;
   overflow-x: clip;
@@ -324,7 +324,7 @@
   display: block;
   align-self: stretch;
   min-width: 0;
-  background: url("/rybel/curtain-border-tile.svg") center / auto 100% repeat-x;
+  background: url("/Ribaal/curtain-border-tile.svg") center / auto 100% repeat-x;
 }
 
 .curtainNav {
@@ -710,7 +710,7 @@
 .spriteImage {
   width: 100%;
   height: 100%;
-  background-image: url("/rybel/sherwani-collection-grid.png");
+  background-image: url("/Ribaal/sherwani-collection-grid.png");
   background-repeat: no-repeat;
   background-size: 200% 200%;
   transform: translate3d(0, 0, 0) scale(1.002);
@@ -766,7 +766,7 @@
 
 .story::before {
   opacity: 0.24;
-  background-image: url("/rybel/jaali-tile.svg");
+  background-image: url("/Ribaal/jaali-tile.svg");
   background-size: 8rem 8rem;
   mix-blend-mode: soft-light;
 }
@@ -925,7 +925,7 @@
   padding: clamp(7rem, 11vw, 12rem) clamp(1.25rem, 5vw, 5.5rem) 0;
   color: var(--ivory);
   background-color: var(--oxblood-dark);
-  background-image: url("/rybel/jaali-tile.svg");
+  background-image: url("/Ribaal/jaali-tile.svg");
   background-size: 6rem 6rem;
 }
 
@@ -1086,7 +1086,7 @@
 .footerArch {
   height: clamp(4rem, 7vw, 6.4rem);
   margin-top: -1px;
-  background: url("/rybel/footer-arch-tile.svg") center bottom / auto 100% repeat-x;
+  background: url("/Ribaal/footer-arch-tile.svg") center bottom / auto 100% repeat-x;
 }
 
 .footerBody {
@@ -1208,7 +1208,7 @@
 
 .footerBorder {
   height: clamp(5rem, 7vw, 7rem);
-  background: url("/rybel/footer-border-tile.svg") center / auto 100% repeat-x;
+  background: url("/Ribaal/footer-border-tile.svg") center / auto 100% repeat-x;
 }
 
 .searchFeedback {
@@ -1238,7 +1238,7 @@
   border: 1px solid var(--gold);
   background:
     linear-gradient(rgba(243, 234, 215, 0.96), rgba(243, 234, 215, 0.96)),
-    url("/rybel/jaali-tile.svg") center / 6rem 6rem;
+    url("/Ribaal/jaali-tile.svg") center / 6rem 6rem;
   box-shadow: 0 2rem 7rem rgba(0, 0, 0, 0.4);
 }
 
@@ -1312,7 +1312,7 @@
   font-size: 1.4rem;
 }
 
-.rybelRoot :focus-visible {
+.RibaalRoot :focus-visible {
   outline: 2px solid var(--gold-bright);
   outline-offset: 3px;
 }
@@ -1681,10 +1681,10 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .rybelRoot,
-  .rybelRoot *,
-  .rybelRoot *::before,
-  .rybelRoot *::after {
+  .RibaalRoot,
+  .RibaalRoot *,
+  .RibaalRoot *::before,
+  .RibaalRoot *::after {
     scroll-behavior: auto !important;
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;

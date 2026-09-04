@@ -1,10 +1,10 @@
-# Rybel Brand Assets
+# Ribaal Brand Assets
 
-Project-local generated imagery for the Rybel premium sherwani storefront. Record each final asset's generation prompt, dimensions, format, and inspection result here before it is consumed by application code.
+Project-local generated imagery for the Ribaal premium sherwani storefront. Record each final asset's generation prompt, dimensions, format, and inspection result here before it is consumed by application code.
 
 ## 2026-09-04 homepage runtime asset boundary
 
-- The current Rybel homepage asset set is exactly eight files: `brand-mark.svg`, `curtain-border-tile.svg`, `jaali-tile.svg`, `footer-arch-tile.svg`, `footer-border-tile.svg`, `hero-sherwani.png`, `craft-detail.png`, and `sherwani-collection-grid.png`.
+- The current Ribaal homepage asset set is exactly eight files: `brand-mark.svg`, `curtain-border-tile.svg`, `jaali-tile.svg`, `footer-arch-tile.svg`, `footer-border-tile.svg`, `hero-sherwani.png`, `craft-detail.png`, and `sherwani-collection-grid.png`.
 - Combined asset size is 6,443,508 bytes (6.15 MiB): the three RGB PNGs contribute 6,440,212 bytes and the five SVGs contribute 3,296 bytes.
 - `FOLDER_SUMMARY.md` is source documentation and may be omitted from a deployed/static export. No other file in this folder is safe to omit while preserving the homepage's current hero, story, collection, navigation, and footer treatments.
 

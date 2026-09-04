@@ -15,17 +15,17 @@ function pngSize(buffer) {
   };
 }
 
-test("contains the complete standalone Rybel application", async () => {
+test("contains the complete standalone Ribaal application", async () => {
   const [page, home, styles, layout, globals, icon] = await Promise.all([
     readText("app/page.tsx"),
-    readText("app/RybelHome.tsx"),
-    readText("app/rybel.module.css"),
+    readText("app/RibaalHome.tsx"),
+    readText("app/Ribaal.module.css"),
     readText("app/layout.tsx"),
     readText("app/globals.css"),
     readText("app/icon.svg"),
   ]);
 
-  assert.match(page, /RybelHome/);
+  assert.match(page, /RibaalHome/);
   assert.match(home, /import\("lenis"\)/);
   assert.match(home, /import\("gsap\/ScrollTrigger"\)/);
   assert.match(home, /ScrollTrigger\.update\(\)/);
@@ -61,7 +61,7 @@ test("includes every runtime asset with the expected PNG geometry", async () => 
   ];
 
   for (const file of expectedFiles) {
-    const svg = await readText("public/rybel/" + file);
+    const svg = await readText("public/Ribaal/" + file);
     assert.match(svg, /<svg\b/);
     assert.doesNotMatch(svg, /<script\b|javascript:/i);
   }
@@ -73,7 +73,7 @@ test("includes every runtime asset with the expected PNG geometry", async () => 
   };
 
   for (const [file, expected] of Object.entries(pngs)) {
-    const bytes = await readFile(new URL("public/rybel/" + file, root));
+    const bytes = await readFile(new URL("public/Ribaal/" + file, root));
     assert.deepEqual(pngSize(bytes), expected);
   }
 });

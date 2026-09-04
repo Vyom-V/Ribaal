@@ -8,7 +8,7 @@ import {
   useRef,
   useState,
 } from "react";
-import styles from "./rybel.module.css";
+import styles from "./Ribaal.module.css";
 
 const featuredLooks = [
   {
@@ -60,11 +60,11 @@ const collections = [
 
 const footerLinks = {
   Discover: ["New arrivals", "Sherwanis", "Wedding edit", "Accessories"],
-  Rybel: ["Our story", "Craft journal", "Appointments", "Contact"],
+  Ribaal: ["Our story", "Craft journal", "Appointments", "Contact"],
   Service: ["Shipping", "Returns", "Care guide", "Size assistance"],
 };
 
-export function RybelHome() {
+export function RibaalHome() {
   const rootRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const searchButtonRef = useRef<HTMLButtonElement>(null);
@@ -109,7 +109,7 @@ export function RybelHome() {
     const root = rootRef.current;
     if (!root) return;
 
-    document.body.classList.add("rybel-page");
+    document.body.classList.add("Ribaal-page");
     const reducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     );
@@ -124,7 +124,7 @@ export function RybelHome() {
       return () => {
         window.removeEventListener("scroll", updateNativeScroll);
         unlockPageScroll();
-        document.body.classList.remove("rybel-page");
+        document.body.classList.remove("Ribaal-page");
       };
     }
 
@@ -343,7 +343,7 @@ export function RybelHome() {
       cancelled = true;
       unlockPageScroll();
       disposeMotion?.();
-      document.body.classList.remove("rybel-page");
+      document.body.classList.remove("Ribaal-page");
     };
   }, []);
 
@@ -361,7 +361,7 @@ export function RybelHome() {
   const curtainIsOpen = !scrolled || curtainPinned;
 
   return (
-    <div className={styles.rybelRoot} ref={rootRef}>
+    <div className={styles.RibaalRoot} ref={rootRef}>
       <a className={styles.skipLink} href="#main-content">
         Skip to content
       </a>
@@ -370,11 +370,11 @@ export function RybelHome() {
         className={`${styles.siteHeader} ${scrolled ? styles.headerScrolled : ""}`}
       >
         <div className={styles.navBar}>
-          <a className={styles.markLink} href="#top" aria-label="Rybel home">
-            <img src="/rybel/brand-mark.svg" alt="" width="46" height="46" />
+          <a className={styles.markLink} href="#top" aria-label="Ribaal home">
+            <img src="/Ribaal/brand-mark.svg" alt="" width="46" height="46" />
           </a>
-          <a className={styles.wordmark} href="#top" aria-label="Rybel home">
-            rybel
+          <a className={styles.wordmark} href="#top" aria-label="Ribaal home">
+            Ribaal
           </a>
           <div className={styles.navActions}>
             <form
@@ -382,11 +382,11 @@ export function RybelHome() {
               onSubmit={submitSearch}
               role="search"
             >
-              <label className={styles.srOnly} htmlFor="rybel-search">
-                Search Rybel
+              <label className={styles.srOnly} htmlFor="Ribaal-search">
+                Search Ribaal
               </label>
               <input
-                id="rybel-search"
+                id="Ribaal-search"
                 name="query"
                 ref={searchInputRef}
                 type="search"
@@ -408,7 +408,7 @@ export function RybelHome() {
                 ref={searchButtonRef}
                 type={searchOpen ? "submit" : "button"}
                 aria-expanded={searchOpen}
-                aria-controls="rybel-search"
+                aria-controls="Ribaal-search"
                 onClick={() => setSearchOpen(true)}
               >
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -459,7 +459,7 @@ export function RybelHome() {
         <section className={styles.hero} id="top" data-hero>
           <div className={styles.heroMedia} data-hero-media>
             <img
-              src="/rybel/hero-sherwani.png"
+              src="/Ribaal/hero-sherwani.png"
               alt="A man wearing an ivory hand-embroidered sherwani"
               width="1672"
               height="941"
@@ -469,7 +469,7 @@ export function RybelHome() {
           <div className={styles.heroVeil} data-hero-veil aria-hidden="true" />
           <div className={styles.heroCopy} data-hero-copy>
             <p className={styles.eyebrow}>The ceremonial edit · volume I</p>
-            <h1>Rybel</h1>
+            <h1>Ribaal</h1>
             <p className={styles.heroSlogan}>
               Made slowly.
               <br />
@@ -504,7 +504,7 @@ export function RybelHome() {
                 a patience you can feel.
               </p>
             </header>
-            <div className={styles.featureStage} aria-label="Featured Rybel looks">
+            <div className={styles.featureStage} aria-label="Featured Ribaal looks">
               {featuredLooks.map((look) => (
                 <article
                   className={`${styles.featureCard} ${look.className}`}
@@ -531,7 +531,7 @@ export function RybelHome() {
           <div className={styles.storySticky}>
             <figure className={styles.storyImageWrap}>
               <img
-                src="/rybel/craft-detail.png"
+                src="/Ribaal/craft-detail.png"
                 alt="A close view of hand-worked gold embroidery on a sherwani"
                 width="1122"
                 height="1402"
@@ -542,10 +542,10 @@ export function RybelHome() {
             </figure>
             <article className={styles.storyCard} data-story-copy>
               <span className={styles.storyNumber}>Est. with intention · 2026</span>
-              <p className={styles.sectionKicker}>The Rybel story</p>
+              <p className={styles.sectionKicker}>The Ribaal story</p>
               <h2>Clothes for the moments that become heirlooms.</h2>
               <p>
-                Rybel began with a simple belief: ceremonial clothing should
+                Ribaal began with a simple belief: ceremonial clothing should
                 feel as personal as the rituals, promises, and memories it
                 witnesses.
               </p>
@@ -612,13 +612,13 @@ export function RybelHome() {
         <div className={styles.footerArch} aria-hidden="true" />
         <div className={styles.footerBody}>
           <div className={styles.footerIntro}>
-            <img src="/rybel/brand-mark.svg" alt="" width="64" height="64" />
-            <p className={styles.footerWordmark}>rybel</p>
+            <img src="/Ribaal/brand-mark.svg" alt="" width="64" height="64" />
+            <p className={styles.footerWordmark}>Ribaal</p>
             <p>
               Ceremonial menswear, shaped by hand in India and made for a life
               well remembered.
             </p>
-            <a href="mailto:atelier@rybel.example">atelier@rybel.example</a>
+            <a href="mailto:atelier@Ribaal.example">atelier@Ribaal.example</a>
           </div>
 
           <div className={styles.footerLinks}>
@@ -645,7 +645,7 @@ export function RybelHome() {
           </div>
         </div>
         <div className={styles.footerLegal}>
-          <span>© 2026 Rybel Atelier</span>
+          <span>© 2026 Ribaal Atelier</span>
           <span>Privacy · Terms · Accessibility</span>
           <a href="#top">Back to top ↑</a>
         </div>
@@ -659,7 +659,7 @@ export function RybelHome() {
       <dialog
         className={styles.accountDialog}
         ref={accountDialogRef}
-        aria-labelledby="rybel-account-title"
+        aria-labelledby="Ribaal-account-title"
         onClose={unlockPageScroll}
         onClick={(event) => {
           if (event.currentTarget === event.target) event.currentTarget.close();
@@ -673,9 +673,9 @@ export function RybelHome() {
         >
           ×
         </button>
-        <img src="/rybel/brand-mark.svg" alt="" width="56" height="56" />
-        <p className={styles.sectionKicker}>The Rybel account</p>
-        <h2 id="rybel-account-title">Your private atelier</h2>
+        <img src="/Ribaal/brand-mark.svg" alt="" width="56" height="56" />
+        <p className={styles.sectionKicker}>The Ribaal account</p>
+        <h2 id="Ribaal-account-title">Your private atelier</h2>
         <p>
           Save measurements, appointments, and considered pieces in one place.
         </p>
