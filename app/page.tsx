@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Ribaal/hero-sherwani.png",
+        url: "/ribaal/hero-sherwani.png",
         width: 1672,
         height: 941,
         alt: "A Ribaal ivory embroidered sherwani in a deep green editorial setting",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ribaal — The Ceremonial Edit",
     description: "Sherwanis made slowly, for moments remembered forever.",
-    images: ["/Ribaal/hero-sherwani.png"],
+    images: ["/ribaal/hero-sherwani.png"],
   },
 };
 

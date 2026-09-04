@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Ribaal/hero-sherwani.png",
+        url: "/ribaal/hero-sherwani.png",
         width: 1672,
         height: 941,
         alt: "An ivory embroidered sherwani in a deep green editorial setting",

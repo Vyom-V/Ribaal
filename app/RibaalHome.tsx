@@ -371,7 +371,7 @@ export function RibaalHome() {
       >
         <div className={styles.navBar}>
           <a className={styles.markLink} href="#top" aria-label="Ribaal home">
-            <img src="/Ribaal/brand-mark.svg" alt="" width="46" height="46" />
+            <img src="/ribaal/brand-mark.svg" alt="" width="46" height="46" />
           </a>
           <a className={styles.wordmark} href="#top" aria-label="Ribaal home">
             Ribaal
@@ -459,7 +459,7 @@ export function RibaalHome() {
         <section className={styles.hero} id="top" data-hero>
           <div className={styles.heroMedia} data-hero-media>
             <img
-              src="/Ribaal/hero-sherwani.png"
+              src="/ribaal/hero-sherwani.png"
               alt="A man wearing an ivory hand-embroidered sherwani"
               width="1672"
               height="941"
@@ -531,7 +531,7 @@ export function RibaalHome() {
           <div className={styles.storySticky}>
             <figure className={styles.storyImageWrap}>
               <img
-                src="/Ribaal/craft-detail.png"
+                src="/ribaal/craft-detail.png"
                 alt="A close view of hand-worked gold embroidery on a sherwani"
                 width="1122"
                 height="1402"
@@ -612,7 +612,7 @@ export function RibaalHome() {
         <div className={styles.footerArch} aria-hidden="true" />
         <div className={styles.footerBody}>
           <div className={styles.footerIntro}>
-            <img src="/Ribaal/brand-mark.svg" alt="" width="64" height="64" />
+            <img src="/ribaal/brand-mark.svg" alt="" width="64" height="64" />
             <p className={styles.footerWordmark}>Ribaal</p>
             <p>
               Ceremonial menswear, shaped by hand in India and made for a life
@@ -673,7 +673,7 @@ export function RibaalHome() {
         >
           ×
         </button>
-        <img src="/Ribaal/brand-mark.svg" alt="" width="56" height="56" />
+        <img src="/ribaal/brand-mark.svg" alt="" width="56" height="56" />
         <p className={styles.sectionKicker}>The Ribaal account</p>
         <h2 id="Ribaal-account-title">Your private atelier</h2>
         <p>

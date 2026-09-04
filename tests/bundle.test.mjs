@@ -61,7 +61,7 @@ test("includes every runtime asset with the expected PNG geometry", async () => 
   ];
 
   for (const file of expectedFiles) {
-    const svg = await readText("public/Ribaal/" + file);
+    const svg = await readText("public/ribaal/" + file);
     assert.match(svg, /<svg\b/);
     assert.doesNotMatch(svg, /<script\b|javascript:/i);
   }
@@ -73,7 +73,7 @@ test("includes every runtime asset with the expected PNG geometry", async () => 
   };
 
   for (const [file, expected] of Object.entries(pngs)) {
-    const bytes = await readFile(new URL("public/Ribaal/" + file, root));
+    const bytes = await readFile(new URL("public/ribaal/" + file, root));
     assert.deepEqual(pngSize(bytes), expected);
   }
 });
