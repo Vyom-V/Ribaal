@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  background: #07100d;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  overflow-x: clip;
+  background: #07100d;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  background: #c9a76a;
+  color: #07100d;
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 2.2rem, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
