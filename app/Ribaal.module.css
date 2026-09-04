@@ -324,7 +324,7 @@
   display: block;
   align-self: stretch;
   min-width: 0;
-  background: url("/Ribaal/curtain-border-tile.svg") center / auto 100% repeat-x;
+  background: url("/ribaal/curtain-border-tile.svg") center / auto 100% repeat-x;
 }
 
 .curtainNav {
@@ -766,7 +766,7 @@
 
 .story::before {
   opacity: 0.24;
-  background-image: url("/Ribaal/jaali-tile.svg");
+  background-image: url("/ribaal/jaali-tile.svg");
   background-size: 8rem 8rem;
   mix-blend-mode: soft-light;
 }
@@ -925,7 +925,7 @@
   padding: clamp(7rem, 11vw, 12rem) clamp(1.25rem, 5vw, 5.5rem) 0;
   color: var(--ivory);
   background-color: var(--oxblood-dark);
-  background-image: url("/Ribaal/jaali-tile.svg");
+  background-image: url("/ribaal/jaali-tile.svg");
   background-size: 6rem 6rem;
 }
 
@@ -1086,7 +1086,7 @@
 .footerArch {
   height: clamp(4rem, 7vw, 6.4rem);
   margin-top: -1px;
-  background: url("/Ribaal/footer-arch-tile.svg") center bottom / auto 100% repeat-x;
+  background: url("/ribaal/footer-arch-tile.svg") center bottom / auto 100% repeat-x;
 }
 
 .footerBody {
@@ -1208,7 +1208,7 @@
 
 .footerBorder {
   height: clamp(5rem, 7vw, 7rem);
-  background: url("/Ribaal/footer-border-tile.svg") center / auto 100% repeat-x;
+  background: url("/ribaal/footer-border-tile.svg") center / auto 100% repeat-x;
 }
 
 .searchFeedback {
@@ -1238,7 +1238,7 @@
   border: 1px solid var(--gold);
   background:
     linear-gradient(rgba(243, 234, 215, 0.96), rgba(243, 234, 215, 0.96)),
-    url("/Ribaal/jaali-tile.svg") center / 6rem 6rem;
+    url("/ribaal/jaali-tile.svg") center / 6rem 6rem;
   box-shadow: 0 2rem 7rem rgba(0, 0, 0, 0.4);
 }
 
